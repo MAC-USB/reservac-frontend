@@ -41,7 +41,7 @@ export class SignUpComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    console.log("y yo tambien");
+    // console.log("y yo tambien");
     this.error = false;
 
     this.form = this.formBuilder.group({

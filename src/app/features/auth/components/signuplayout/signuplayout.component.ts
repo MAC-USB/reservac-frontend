@@ -9,6 +9,6 @@ export class SignuplayoutComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log("entre a este");
+    // console.log("entre a este");
   }
 }
