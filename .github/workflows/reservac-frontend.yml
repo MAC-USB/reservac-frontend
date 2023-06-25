@@ -27,5 +27,5 @@ jobs:
         env:
           PASS: ${{ secrets.DALINAR_RUNNERS_PASSWORD }}
         run: |
-          echo $PASS | sudo mkdir -p /var/www/reservac
-          echo $PASS | sudo cp -r dist/* /var/www/reservac
+          echo $PASS | sudo -S mkdir -p /var/www/reservac
+          echo $PASS | sudo -S cp -r dist/* /var/www/reservac
